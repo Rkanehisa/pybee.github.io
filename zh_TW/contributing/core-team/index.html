@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>核心團隊和責任— BeeWare</title>
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/static/images/brutus-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/static/images/brutus-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/static/images/brutus-72.png">
+    <link rel="apple-touch-icon-precomposed" href="/static/images/brutus-57.png">
+    <link rel="shortcut icon" href="/static/images/brutus-32.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="/static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/bootstrap/css/grid.min.css">
+
+    <!-- Project CSS -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cutive">
+    <link rel="stylesheet" type="text/css" href="/static/beeware.css"><!-- Project CSS --><style>.highlight .hll { background-color: #ffffcc }
+.highlight  { background: #f8f8f8; }
+.highlight .c { color: #408080; font-style: italic } /* Comment */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight .o { color: #666666 } /* Operator */
+.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
+.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #A00000 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #FF0000 } /* Generic.Error */
+.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #00A000 } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight .gt { color: #0044DD } /* Generic.Traceback */
+.highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #008000 } /* Keyword.Pseudo */
+.highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #B00040 } /* Keyword.Type */
+.highlight .m { color: #666666 } /* Literal.Number */
+.highlight .s { color: #BA2121 } /* Literal.String */
+.highlight .na { color: #7D9029 } /* Name.Attribute */
+.highlight .nb { color: #008000 } /* Name.Builtin */
+.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.highlight .no { color: #880000 } /* Name.Constant */
+.highlight .nd { color: #AA22FF } /* Name.Decorator */
+.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
+.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #0000FF } /* Name.Function */
+.highlight .nl { color: #A0A000 } /* Name.Label */
+.highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.highlight .nv { color: #19177C } /* Name.Variable */
+.highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #666666 } /* Literal.Number.Bin */
+.highlight .mf { color: #666666 } /* Literal.Number.Float */
+.highlight .mh { color: #666666 } /* Literal.Number.Hex */
+.highlight .mi { color: #666666 } /* Literal.Number.Integer */
+.highlight .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
+.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
+.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.highlight .sx { color: #008000 } /* Literal.String.Other */
+.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
+.highlight .ss { color: #19177C } /* Literal.String.Symbol */
+.highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #0000FF } /* Name.Function.Magic */
+.highlight .vc { color: #19177C } /* Name.Variable.Class */
+.highlight .vg { color: #19177C } /* Name.Variable.Global */
+.highlight .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight .vm { color: #19177C } /* Name.Variable.Magic */
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
+</style><!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/1138bd8363.js"></script>
+
+    <!-- Google tracking -->
+    <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-2943925-4', 'pybee.org');
+ga('send', 'pageview');
+    </script></head>
+  <body>
+    
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsDefault" aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarsDefault">
+    <a class="navbar-brand" href="/zh_TW/">BeeWare</a>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+    <a class="nav-link" href="/zh_TW/project/">
+Project
+</a>
+  </li>
+      <li class="nav-item">
+    <a class="nav-link" href="/zh_TW/news/">
+News
+</a>
+  </li>
+      <li class="nav-item">
+    <a class="nav-link" href="/zh_TW/community/">
+Community
+</a>
+  </li>
+      <li class="nav-item active">
+    <a class="nav-link" href="/zh_TW/contributing/">
+Contributing
+<span class="sr-only">(current)</span></a>
+  </li>
+      <li class="nav-item">
+    <a class="nav-link" href="/zh_TW/contact/">
+Contact
+</a>
+  </li>
+     <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+Languages
+ <span class="caret"></span></a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item " href="/contributing/core-team/">English</a><a class="dropdown-item " href="/ar_AR/contributing/core-team/">Arabic</a><a class="dropdown-item " href="/de_DE/contributing/core-team/">German</a><a class="dropdown-item " href="/es/contribuir/equipo-central/">Spanish</a><a class="dropdown-item " href="/pt_BR/contributing/core-team/">Portuguese</a><a class="dropdown-item active" href="/zh_TW/contributing/core-team/">Chinese</a></div>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right"><li class="nav-item small"><a class="nav-link" href="https://github.com/pybee/pybee.github.io/edit/lektor/content/contributing/core-team/contents%2Bzh.lr" rel="noopener noreferrer" target="_blank">
+            <i class="fa fa-github "></i><small>&nbsp;
+Edit on GitHub
+</small>
+          </a></li>
+    </ul>
+  </div>
+  </nav>
+    <div class="content">
+<div class="banner">
+  <div class="container">
+    <p>
+  
+
+  
+  
+  
+
+  
+  <a href="/zh_TW/">
+Home
+</a>
+  
+ >
+  <a href="/zh_TW/contributing/">如何參與</a>
+  
+</p>
+    <h1>核心團隊和責任</h1>
+    <p>核心團隊是什麼？他們有哪些責任？</p>
+  </div>
+</div>
+<div class="container"><div class="alert alert-warning">
+          <i class="fa fa-warning"></i>&nbsp;
+This translation of the original content is out of date!
+&nbsp;&nbsp;
+          <a href="/contributing/core-team/" data-toggle="modal" data-target="#myModal">
+See what changed in the original content
+</a>
+        </div>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog modal-lg">
+        
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">
+                  <a href="https://github.com/pybee/pybee.github.io/edit/lektor/content/contributing/core-team/contents%2Bzh.lr" target="_blank">
+                    <i class="fa fa-github "></i>&nbsp;
+Update translation on Github
+
+                  </a>
+                </h4>
+              </div>
+              <div class="modal-body">
+                <small><div class="highlight"><pre><span></span><span class="gh">diff --git a/content/contributing/core-team/contents.lr b/content/contributing/core-team/contents.lr</span>
+<span class="gh">index bce1ddb..76eaf82 100644</span>
+<span class="gd">--- a/content/contributing/core-team/contents.lr</span>
+<span class="gi">+++ b/content/contributing/core-team/contents.lr</span>
+<span class="gu">@@ -96,7 +96,7 @@ number of general guidelines that the team should follow:</span>
+ 
+  * Acceptance processes should be automated wherever possible
+     - This means tests, linting, spell checking, coverage, and more.
+<span class="gd">-    - This is a `work in progress &lt;http://pybee.org/project/projects/tools/beefore/&gt;`_</span>
+<span class="gi">+    - This is now a `proof of concept &lt;/project/projects/tools/beekeeper/&gt;`_</span>
+ 
+ 
+ 
+<span class="gu">@@ -115,7 +115,7 @@ may ask to be given permission to commit to the project.</span>
+ 
+ All new apiarists will be &#39;inducted&#39; (for lack of a better word) in the core
+ values and guidelines of the project. A summary of the core values can be found
+<span class="gd">-`on the about page &lt;http://pybee.org/project/about/&gt;`_. Anyone who joins the</span>
+<span class="gi">+`on the about page &lt;/project/about/&gt;`_. Anyone who joins the</span>
+ team will be expected to uphold those values, and contribute to discussions
+ about evolving those values over time.
+ 
+</pre></div>
+</small>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!-- End Modal content -->
+          </div>
+        </div>
+        <!-- End Modal -->
+<div class="row">
+  <div class="col-sm-7 mr-auto">
+  
+  
+
+  
+    <p><a class="reference external" href="/community/team">核心團隊</a> 里忙碌的密封有些維護蜂巢的責任。因為項目是一直在改變的，所以本頁會有改變。</p>
+<p>責任包括，但不限於，回答議題，審查或合並起來源碼，輔導新的貢獻者，而且設計關於完整BeeWare項目的結構。</p>
+<p>我們信任一些人：有的是處理關於源碼的決定，有的是處理源碼和組織方面的，還有一個具備遠見卓識的人引導項目，並且當作最大的拉拉隊員。</p>
+<p>不同身份的責任如下：</p>
+<dl class="docutils">
+<dt>密封或工蜂:</dt>
+<dd><ul class="first last simple">
+<li>任何BeeWare社區裡的成員。因為我們都在GitHub透明地工作，誰都能提出源碼修改然後把自己的源碼合並起來。你向BeeWare項目的貢獻只限於你的貢獻被有合並權的團隊成員把它合並起來。</li>
+</ul>
+</dd>
+<dt>蜂農:</dt>
+<dd><ul class="first last simple">
+<li>我們信任的貢獻者。這些密封已經對項目一部分有所知識，而且在一段時間內表現出自己的才能。知識可能是關於技術(JavaScript, Python, Objective-C 專門知識；GTK+, macOS 知識)，或者項目的其他方面（社區管理，審查源碼）。蜂農也可能因為有些專門的知識，所以有著commit bit。</li>
+</ul>
+</dd>
+</dl>
+<p>高級蜂農:
+- 有著在GitHub高級存取權,也有著多些見識項目的責任。他們能做出 的決定，但最後向BDFN報到。</p>
+<dl class="docutils">
+<dt>創立蜂農: <a class="reference external" href="https://twitter.com/freakboy3742">Russell Keith-Magee</a></dt>
+<dd><ul class="first last simple">
+<li>第一站在山地觀察一頭需要被刮的牦牛。</li>
+<li>這個角色永遠不會改變，而且也永遠要繼續。</li>
+<li>這個角色和BDFN角色不一樣。</li>
+</ul>
+</dd>
+<dt>項目現有的仁慈的独裁者——Bee-nevolent Dictator For Now(BDFN): <a class="reference external" href="https://twitter.com/freakboy3742">Russell Keith-Magee</a></dt>
+<dd><ul class="first last simple">
+<li>一種 <a class="reference external" href="https://en.wikipedia.org/wiki/Benevolent_dictator_for_life">仁慈的独裁者</a>, 麻煩轉到這里；BDFN要承擔責任. The use of &quot;現有的&quot;而不是&quot;全生的&quot;，和Django的主題一樣——我們不一定想把核心維護者的生命投入到項目里。生活是多方面的，我們在開源外也有其他責任，愛好，需要做的事情。我們認為代碼/生活是需要平衡的，而且保持健康和福利也很重要。</li>
+</ul>
+</dd>
+</dl>
+<div class="section" id="id4">
+<h2>引導 （不算規定）</h2>
+<p>和其他的項目一樣，如果有著commit權限的人超過一個，那麼項目就會有些團隊應該遵循的指導準則:</p>
+<blockquote>
+<ul class="simple">
+<li><strong>向BeeWare外的社區，繼續當作——資格——*的代表著。</strong></li>
+<li><strong>尊重所有向BeeWare項目的咨詢問題和貢獻。</strong></li>
+<li><strong>不管社區成員的語氣好不好聽，你也應該向他保持尊重他人的語氣。</strong></li>
+<li><strong>如果社區成員的做法“有錯”，是因為我們的溝通過程已經失敗了。</strong></li>
+<li><strong>如果社區成員表示憤怒或者挫折感，別忘掉他人最終的目的也是使用BeeWare的工具/庫。</strong></li>
+<li><strong>不管在社區內或外，鼓勵其他社區成員把這些準則加入自己的溝通方式。</strong></li>
+<li><dl class="first docutils">
+<dt>任何蜂農不應該交代自己的代碼</dt>
+<dd><ul class="first last">
+<li>除非：&quot;某個東西破掉了，而且需要趕快的修理。&quot;</li>
+<li>除非：BDFN (可能會變)</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>所有來自核心團隊成員提交的代碼需要其他團隊成員的審查</dt>
+<dd><ul class="first last">
+<li>除非：BDFN (可能會變)</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>所提交的代碼必須通過持續集成測試才能被合並起來。</dt>
+<dd><ul class="first last">
+<li>除非：已知有錯的代碼還有其他必須被committed的原因。</li>
+<li>除非：code in a repo with insufficient CI tests</li>
+<li>除非：在GitHub能操作的比完善但不在GitHub的代碼更好。</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>應該盡可能把接受測試自動化。</dt>
+<dd><ul class="first last">
+<li>包括測試、linting、拼寫檢測、涵蓋範圍等。</li>
+<li>這算是 <a class="reference external" href="/zh_TW/project/projects/tools/beefore/">製作尚未完工的</a></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</blockquote>
+</div>
+<div class="section" id="id6">
+<h2>如何得到蜂農權限</h2>
+<p>新蜂農能不能加入團隊是由現有核心團隊的決定。現在沒有固定的規則，但總的來說一個人已经積累了不少對項目的貢獻以後就可能會收到加入團隊的邀請。收到邀請的人也可能有對一種技術專門的知識（比如，iOS/macOS)，而且邀請不一定是因為他提交了好幾行的代碼。任何已经對項目表示有興趣，並且已經提供貢獻的人能請求收到(commit to the project)提交項目的權利。</p>
+<p>所有新的蜂農會被('inducted' (for lack of a better word) in the core values)“入門”項目的核心價值觀和指導準則。核心價值的總結在 <a class="reference external" href="/zh_TW/project/about/">關於頁</a>。加入團隊以後，我們要求成員維護我們的價值觀，而且參加發展價值觀的討論。</p>
+<p>不管新的或老的蜂農，我們不要求任何蜂農當作唯一維護者。蜂農很多，而且能幫上忙、提出建議、或者提供輔導的蜂農不少。</p>
+</div>
+
+    
+  
+  </div>
+  
+    
+  <!-- <div class="col-sm-12 col-md-4 gutter"> -->
+  <div class="col-sm-4">
+    <div class="sidebar-module sidebar-module-inset gutter">
+    <div class="section" id="commit-bit">
+<h2>&quot;Commit bit&quot;?</h2>
+<p>In Unix systems, a single bit in a file is used to denote permission to execute
+a file. In source control systems, a similar bit exists to denote the ability to
+merge code. To say someone has the &quot;commit bit&quot; means they have write-access to
+a code base. In GitHub terms, this means they have the ability to merge Pull
+Requests and commit code directly to the project.</p>
+</div>
+
+    </div>
+  </div>
+    
+  
+</div>
+</div>
+    </div>
+
+    <footer class="footer">
+      <div class="container text-muted">
+        <div class="float-right clearfix">&copy; Russell Keith-Magee 2017</div>
+        <p><a href="https://github.com/pybee/"><i class="fa fa-github fa-lg" aria-hidden="true"></i> GitHub</a> |
+        <a href="https://gitter.im/pybee/general/"><i class="fa fa-comments-o fa-lg" aria-hidden="true"></i> Gitter</a> |
+        <a href="https://twitter.com/PyBeeWare/"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i> Twitter</a> |
+        <a href="/zh_TW/sitemap/"><i class="fa fa-sitemap fa-lg" aria-hidden="true"></i> 
+Sitemap
+</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    
+    <script src="/static/tether-1.3.3/js/tether.min.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script></body>
+</html>
